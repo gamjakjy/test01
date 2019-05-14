@@ -9,6 +9,10 @@
     cafelatte=[]
     cappucino=[]
 
+    #change~
+    
+	for x in f :
+		pass
     for line in f:
         dataList = line.split()
         espresso.append(int(dataList[1]))
@@ -25,3 +29,6 @@
 
     for i in range(len(total_sum)):
         print('[{0}] 판매량 : {1}월 중 {2}일 전체 {3}잔, 하루평균 {4:.2f}잔'.format(headerList[i+1],month,len(total_sum),total_sum[i], total_mean[i]))
+
+        
+    

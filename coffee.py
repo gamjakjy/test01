@@ -9,10 +9,14 @@
     cafelatte=[]
     cappucino=[]
 
-    #change~
+    #change~s11111$T34t34t111
     
 	for x in f :
 		pass
+		
+	for y in f : 
+		pass
+		
     for line in f:
         dataList = line.split()
         espresso.append(int(dataList[1]))
